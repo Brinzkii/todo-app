@@ -27,6 +27,7 @@ const NewTodoForm = ({ addTodo }) => {
 				Todo:
 			</label>
 			<input
+				id="todo"
 				name="todo"
 				type="text"
 				onChange={handleChange}

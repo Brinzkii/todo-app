@@ -10,7 +10,9 @@ const Todo = ({ todo, id, removeTodo }) => {
 			<button className={id} onClick={handleClick}>
 				X
 			</button>
-			<div className="Todo-item">{todo}</div>
+			<div className="Todo-item" title="Todo-item">
+				{todo}
+			</div>
 		</>
 	);
 };
